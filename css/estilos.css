@@ -37,3 +37,7 @@ body{
     border-radius: 50%;
     background-size: cover;
 }
+h1{
+    display: flex;
+    justify-content: center;
+}
