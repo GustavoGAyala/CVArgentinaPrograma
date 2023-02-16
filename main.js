@@ -18,5 +18,5 @@ $(document).ready(function(){
 })
 document.getElementById('datos').onclick = function (){
   console.log("Capturamos el evento click");
-  document.getElementById('demo').innerHTML = "Adios muchachines"
+  document.getElementById('demo').innerHTML = "Nombre:  Cosme Fulanguito, Algo mas para escribir por las moscas que quiera ver como es que se ve el texto cuando la oracion es mas larga de lo que imagino entrara en un explorador con un monitor extra pequeño para poder ver como ose organiza la pagina cuando tengo un texto grante"
 }
