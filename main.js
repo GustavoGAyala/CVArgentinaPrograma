@@ -1,13 +1,28 @@
-$(document).ready(function(){
-    datafn = ajax
-    $("#generador").click(function(){
-        alert(datafn)
-    })    
-})
+
 
 document.getElementById('home').onclick = function (){
   console.log("Capturamos el evento click");
-  document.getElementById('main').innerHTML = "Nombre:  Cosme Fulanguito, Algo mas para escribir por las moscas que quiera ver como es que se ve el texto cuando la oracion es mas larga de lo que imagino entrara en un explorador con un monitor extra pequeño para poder ver como ose organiza la pagina cuando tengo un texto grante"
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Hola, Mi nombre es:</h5> <p class=card-text>Denise Caldwell</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+}
+document.getElementById('cumple').onclick = function (){
+  console.log("Capturamos el evento click");
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>El dia de mi cumpleaños es:</h5> <p class=card-text>19/09/1980</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+}
+document.getElementById('hobie').onclick = function (){
+  console.log("Capturamos el evento click");
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi hobie favorito es:</h5> <p class=card-text>Tocal el piano, futbol, programar video juegos</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+}
+document.getElementById('mail').onclick = function (){
+  console.log("Capturamos el evento click");
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi dirección de coorreo electronico es:</h5> <p class=card-text>denisecaldwell@argentinaprograma.es.lo.mas</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+}
+document.getElementById('edu').onclick = function (){
+  console.log("Capturamos el evento click");
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi carrera universitaria es:</h5> <p class=card-text>Ingenieria en computación</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+}
+document.getElementById('phone').onclick = function (){
+  console.log("Capturamos el evento click");
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi numero telefonico es:</h5> <p class=card-text>(+54)-15-4474-1447</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
 }
 
 var app = {}
