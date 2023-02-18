@@ -1,5 +1,5 @@
 
-
+/*logica de la barra de navegacion*/
 document.getElementById('home').onclick = function (){
   console.log("Capturamos el evento click");
   document.getElementById('body-main').innerHTML = "<h5 class=card-title>Hola, Mi nombre es:</h5> <p class=card-text>Denise Caldwell</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
@@ -24,20 +24,5 @@ document.getElementById('phone').onclick = function (){
   console.log("Capturamos el evento click");
   document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi numero telefonico es:</h5> <p class=card-text>(+54)-15-4474-1447</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
 }
-/** 
-var app = {}
-var miCallBack = function(datos){
-  console.log(datos);
-}
-$.ajax({
-  url: 'https://randomuser.me/api/',
-  dataType: 'json',
-  success: function(data) {
-  for(i=0;i<data.length;i++){
-    app[i]=data
 
-  }
-  miCallBack(app);
-  }
-});*/
       

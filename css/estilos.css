@@ -10,14 +10,15 @@ li{
     background-color: #808080;
 }
   
-#demo {
+#body-main {
 
-    margin-top: 201px;
+    margin-top: 3px;
     text-align: center;
     vertical-align: middle;
     margin-bottom: 10px;
     font-weight: bold;
 }
+/*Imagen circular de perfil*/
 .box{
     width: 120px;
     height: 120px;
