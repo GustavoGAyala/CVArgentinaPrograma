@@ -10,11 +10,11 @@ document.getElementById('cumple').onclick = function (){
 }
 document.getElementById('hobie').onclick = function (){
   console.log("Capturamos el evento click");
-  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi hobie favorito es:</h5> <p class=card-text>Tocal el piano, futbol, programar video juegos</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi hobie favorito es:</h5> <p class=card-text>Tocal el piano, natación</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
 }
 document.getElementById('mail').onclick = function (){
   console.log("Capturamos el evento click");
-  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi dirección de coorreo electronico es:</h5> <p class=card-text>denisecaldwell@argentinaprograma.es.lo.mas</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
+  document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi coorreo electronico es:</h5> <p class=card-text>denise@argentinaprograma.com</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
 }
 document.getElementById('edu').onclick = function (){
   console.log("Capturamos el evento click");
@@ -24,7 +24,7 @@ document.getElementById('phone').onclick = function (){
   console.log("Capturamos el evento click");
   document.getElementById('body-main').innerHTML = "<h5 class=card-title>Mi numero telefonico es:</h5> <p class=card-text>(+54)-15-4474-1447</p>   <p class=card-text><small class=text-muted>Haga click sobre los iconos para mas información</small></p>"
 }
-
+/** 
 var app = {}
 var miCallBack = function(datos){
   console.log(datos);
@@ -33,8 +33,11 @@ $.ajax({
   url: 'https://randomuser.me/api/',
   dataType: 'json',
   success: function(data) {
-  app=data;
+  for(i=0;i<data.length;i++){
+    app[i]=data
+
+  }
   miCallBack(app);
   }
-});
+});*/
       

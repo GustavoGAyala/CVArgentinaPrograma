@@ -4,9 +4,8 @@ li{
 
 #cont_circular {
 
-    border: 3px solid #27cf05;
-    
-    width: 460px;
+        
+    width: 470px;
     height: 1080px;
     background-color: #808080;
 }
@@ -26,4 +25,8 @@ li{
     margin: 0 auto;
     border-radius: 50%;
     background-size: cover;
+}
+h1{
+    background-color: #c4c4c4;
+    
 }
