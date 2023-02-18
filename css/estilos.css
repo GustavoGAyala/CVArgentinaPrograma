@@ -7,7 +7,7 @@ li{
     border: 3px solid #27cf05;
     
     width: 460px;
-    height: 380px;
+    height: 1080px;
     background-color: #808080;
 }
   
@@ -20,8 +20,8 @@ li{
     font-weight: bold;
 }
 .box{
-    width: 300px;
-    height: 300px;
+    width: 120px;
+    height: 120px;
     background-image: url(https://cdn-images.livecareer.es/pages/foto_cv_lc_es_7.jpg);
     margin: 0 auto;
     border-radius: 50%;
